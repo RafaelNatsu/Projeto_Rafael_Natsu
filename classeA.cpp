@@ -18,6 +18,11 @@ void classeA::MA2()
     std::cout << "Metodo MA2" << std::endl;
 }
 
+void classeA::MA3()
+{
+    std::cout << "Alteração a classe A partir do clone" << std::endl;
+}
+
 int classeA::getA1()
 {
     return A1;

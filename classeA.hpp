@@ -14,6 +14,7 @@ public:
     ~classeA();
     void MA1();
     void MA2();
+    void MA3();
     int getA1();
     void setA1(int _a1);
     float getA2();

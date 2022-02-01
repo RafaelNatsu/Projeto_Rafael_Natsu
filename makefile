@@ -3,7 +3,7 @@ all : main
 main: main.o classeA.o classeB.o
 	g++ -o main main.o classeA.o classeB.o
 
-main.o: main.cpp classeA.hpp classeB.hpp
+main.o: main.cpp classeA.hpp classeB.hpp classeC.hpp
 	g++ -o main.o main.cpp -c -W -Wall -ansi -pedantic
 
 classeA.o: classeA.cpp classeA.hpp
@@ -11,6 +11,10 @@ classeA.o: classeA.cpp classeA.hpp
 
 classeB.o: classeB.cpp classeB.hpp
 	g++ -o classeB.o classeB.cpp -c -W -Wall -ansi -pedantic
+
+classeC.o: classeC.cpp classeC.hpp
+	g++ -o classeC.o classeC.cpp -c -W -Wall -ansi -pedantic
+
 
 clean:
 	rm -rf *.o main
