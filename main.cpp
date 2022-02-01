@@ -27,15 +27,15 @@ int main(int argc, char const *argv[])
     clB.MB1();
     clB.MB2();
 
-    clC.setB1("teste B1");
+    clC.setC1("teste B1");
     std::cout << clC.getC1() << std::endl;
 
-    clC.setB2(3);
+    clC.setC2(3);
     std::cout << clC.getC2() << std::endl;
 
     clC.MC1();
     clC.MC2();
-    
+
     std::cout << "eof" << std::endl;
     return 0;
 }
