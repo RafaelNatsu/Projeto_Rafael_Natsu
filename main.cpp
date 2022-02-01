@@ -1,23 +1,27 @@
-#ifndef CLASSEB_HPP
-
-#define CLASSEB_HPP
-
 #include <iostream>
-
-class classeB
+#include "classeA.hpp"
+#include "classeB.hpp"
+int main(int argc, char const *argv[])
 {
-private:
-    int B1;
-    float B2;
-public:
-    classeB();
-    ~classeB();
-    void MB1();
-    void MB2();
-    int getB1();
-    void setB1(int _b1);
-    float getB2();
-    void setB2(float _b2);
-};
+    classeA clA;
+    classeB clB;
+    clA.setA1(1);
+    std::cout << clA.getA1() << std::endl;
 
-#endif
+    clA.setA2(1.1);
+    std::cout << clA.getA2() << std::endl;
+
+    clA.MA1();
+    clA.MA2();
+
+    clB.setB1(2);
+    std::cout << clB.getB1() << std::endl;
+
+    clB.setB2(2.2);
+    std::cout << clB.getB2() << std::endl;
+
+    clB.MB1();
+    clB.MB2();
+    std::cout << "eof" << std::endl;
+    return 0;
+}
