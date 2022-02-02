@@ -13,6 +13,7 @@ public:
     ~classeC();
     void MC1();
     void MC2();
+    void MC3();
     std::string getC1();
     void setC1(std::string _c1);
     int getC2();

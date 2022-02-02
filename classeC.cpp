@@ -18,6 +18,11 @@ void classeC::MC2()
     std::cout << "Metodo MC2" << std::endl;
 }
 
+void classeC::MC3()
+{
+    std::cout << "Metodo MC3" << std::endl;
+}
+
 std::string classeC::getC1()
 {
     return C1;
