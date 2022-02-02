@@ -14,6 +14,7 @@ public:
     ~classeB();
     void MB1();
     void MB2();
+    void MB3();
     int getB1();
     void setB1(int _b1);
     float getB2();

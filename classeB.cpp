@@ -18,6 +18,11 @@ void classeB::MB2()
     std::cout << "Metodo MB2" << std::endl;
 }
 
+void classeB::MB3()
+{
+    std::cout << "Metodo MB3" << std::endl;
+}
+
 int classeB::getB1()
 {
     return B1;
