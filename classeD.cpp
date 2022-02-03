@@ -23,6 +23,11 @@ void classeD::MD3()
     std::cout << "Metodo MD3" << std::endl;
 }
 
+void classeD::MD4()
+{
+    std::cout << "Metodo MD4" << std::endl;
+}
+
 int classeD::getD1()
 {
     return D1;
